@@ -45,6 +45,7 @@ git commit -m
 ```sh
 git log
 ```
+<<<<<<< HEAD
 
 ## как задать имя пользователя и электронный адрес 
 ```sh
@@ -52,9 +53,21 @@ git config --global user.name "Tara Routray"
 ```
 в ковычках свое имя 
 
+=======
+## как задать имя пользователя и электронный адрес 
+
+в ковычках свое имя
+```sh
+git config --global user.name "Tara Routray"
+``` 
+ковычках указать почту 
+>>>>>>> registration
 
 ```sh
 git config --global user.email "dev@tararoutray.com"
 ```
+<<<<<<< HEAD
 ковычках указать почту 
 
+=======
+>>>>>>> registration
