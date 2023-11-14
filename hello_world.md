@@ -45,15 +45,6 @@ git commit -m
 ```sh
 git log
 ```
-<<<<<<< HEAD
-
-## как задать имя пользователя и электронный адрес 
-```sh
-git config --global user.name "Tara Routray"
-```
-в ковычках свое имя 
-
-=======
 ## как задать имя пользователя и электронный адрес 
 
 в ковычках свое имя
@@ -61,13 +52,18 @@ git config --global user.name "Tara Routray"
 git config --global user.name "Tara Routray"
 ``` 
 ковычках указать почту 
->>>>>>> registration
 
 ```sh
-git config --global user.email "dev@tararoutray.com"
+git config --global user.email "dev@tararoutray.com" 
 ```
-<<<<<<< HEAD
-ковычках указать почту 
 
-=======
->>>>>>> registration
+## работа с удаленным рипозиторием на git hab
+* сначала нужно создать аккаунт на git hab
+
+ * после необходимо сихранизировать git и git hab.
+для этого нужно ввести ири команды 
+```sh
+git remote add origin https://github.com/имя на git hab/-.git 
+branch git -M main
+git push -u origin main
+```
